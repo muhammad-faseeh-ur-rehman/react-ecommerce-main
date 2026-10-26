@@ -1,6 +1,5 @@
 import React from 'react'
 import exclusive_image from '../../assets/exclu.webp'
-
 const Offers = () => {
   return (
     <section className="w-full flex flex-col md:flex-row items-center justify-between bg-gradient-to-r from-pink-50 via-white to-blue-50 py-12 px-4 md:px-20 rounded-3xl shadow-xl my-10 overflow-hidden">
