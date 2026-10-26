@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../../assets/logo.jpg'
-
 const Footer = () => {
   return (
     <footer className="w-full bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-10 px-4 md:px-20 mt-10">

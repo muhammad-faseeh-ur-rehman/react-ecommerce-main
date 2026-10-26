@@ -2,7 +2,6 @@ import React from "react";
 import { useContext } from "react";
 import { ShopContext } from "../../context/ShopContext";
 import remove_icon from "../../assets/remove.webp";
-
 const CartItem = () => {
   const { all_product, cart, addToCart, removeFromCart, getTotalCartAmount } = useContext(ShopContext);
   return (
@@ -43,7 +42,6 @@ const CartItem = () => {
             return null;
           })}
         </div>
-        {/* Cart Totals & Promo */}
         <div className="w-full md:w-96 flex flex-col gap-8">
           <div className="bg-blue-50 rounded-xl p-6 shadow flex flex-col gap-4">
             <h1 className="text-2xl font-bold text-blue-700 mb-2">Cart Totals</h1>
@@ -77,5 +75,4 @@ const CartItem = () => {
     </section>
   );
 };
-
 export default CartItem;
