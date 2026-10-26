@@ -1,8 +1,5 @@
-
 import React from 'react'
 import arrow_icon from '../../assets/arrow_icon.png'
-
-
 const Bredcrums = (props) => {
     const { product } = props;
     return (
@@ -17,5 +14,4 @@ const Bredcrums = (props) => {
         </nav>
     )
 }
-
 export default Bredcrums
