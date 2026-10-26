@@ -20,7 +20,6 @@ const ProductDisplay = (props) => {
           <img src={product.image} alt={product.name} className="w-60 h-60 md:w-96 md:h-96 object-contain rounded-2xl shadow-lg bg-gradient-to-br from-blue-50 to-pink-50" />
         </div>
       </div>
-      {/* Right: Details */}
       <div className="flex-1 flex flex-col gap-5">
         <h1 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-2">{product.name}</h1>
         <div className="flex items-center gap-2 mb-2">
@@ -54,5 +53,4 @@ const ProductDisplay = (props) => {
     </div>
   )
 }
-
 export default ProductDisplay
