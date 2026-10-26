@@ -2,14 +2,11 @@ import React from 'react'
 import hand_icon from '../../assets/hand_icon.png'
 import arrow_icon from '../../assets/arrow_icon.png'
 import men from '../../assets/p8.webp'
-
 const Hero = () => {
 return (
     <section className="relative w-full min-h-[80vh] flex flex-col md:flex-row items-center justify-between bg-gradient-to-br from-blue-100 via-white to-pink-100 overflow-hidden px-4 md:px-20 py-12">
-        {/* Decorative background shapes */}
         <div className="absolute top-0 left-0 w-40 h-40 bg-blue-200 rounded-full opacity-30 blur-2xl -z-10 animate-pulse" />
         <div className="absolute bottom-0 right-0 w-60 h-60 bg-pink-200 rounded-full opacity-30 blur-2xl -z-10 animate-pulse" />
-        {/* Left Content */}
         <div className="flex-1 flex flex-col gap-7 items-start justify-center z-10">
             <div className="flex items-center gap-3 mb-2">
                 <span className="text-2xl md:text-3xl font-bold text-blue-600">New Arrival</span>
@@ -31,7 +28,6 @@ return (
                 </button>
             </div>
         </div>
-        {/* Right Image */}
         <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 z-10">
             <img
                 src={men}
